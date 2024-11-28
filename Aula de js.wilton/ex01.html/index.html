@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Kaiky Matheus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo global */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #111;
+            padding: 10px 0;
+        }
+
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .menu ul li a:hover {
+            color: #fbff00; /* Dourado ao passar o mouse */
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .apresentacao {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #222;
+            border-radius: 10px;
+        }
+
+        .apresentacao .texto {
+            max-width: 60%;
+        }
+
+        .apresentacao .foto img {
+            max-width: 250px;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-weight: 600;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #habilidades ul li, #projetos ul li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        #habilidades, #projetos, #contatos, #sobre-mim {
+            background-color: #111;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+
+        #contatos a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        #contatos a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="apresentacao">
+        <div class="texto">
+            <h1>Olá, eu sou Kaiky Matheus!</h1>
+            <p>Entusiasta de Tecnologia e Desenvolvimento</p>
+        </div>
+        <div class="foto">
+            <img src="minha-foto.jpg" alt="Foto de Kaiky Matheus">
+        </div>
+    </section>
+
+    <section id="sobre-mim">
+        <h1>Sobre Mim</h1>
+        <p>
+            Olá, meu nome é Kaiky Matheus Barbosa Ferreira de Moraes. Tenho 16 anos e sou apaixonado por tecnologia! 
+            Sempre fui fascinado pelo mundo digital e pela capacidade de transformar ideias em realidade através de código. 
+            Possuo habilidades em HTML, CSS, JavaScript, entre outras linguagens e frameworks, e adoro explorar tudo relacionado 
+            a jogos e desenvolvimento web.
+        </p>
+    </section>
+
+    <section id="habilidades">
+        <h1>Habilidades</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Criação de projetos interativos</li>
+            <li>Design responsivo</li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h1>Projetos</h1>
+        <p>Confira alguns dos meus projetos, criados com paixão e dedicação:</p>
+        <ul>
+            <li><strong>Game Simulator:</strong> Um jogo simples inspirado nos clássicos de simulação.</li>
+            <li><strong>Website Interativo:</strong> Um site responsivo feito com HTML, CSS e JavaScript.</li>
+            <li><strong>Calculadora de Pontos:</strong> Uma ferramenta criada para auxiliar jogadores de RPG.</li>
+        </ul>
+    </section>
+
+    <section id="contatos">
+        <h1>Contatos</h1>
+        <p>Entre em contato comigo pelo WhatsApp:</p>
+        <p><strong>+55 81 9978-0189</strong></p>
+        <p>Siga-me no Instagram: <a href="https://www.instagram.com/unfav_kaiky" target="_blank">@unfav_kaiky</a></p>
+    </section>
+</body>
+</html>
